@@ -1,0 +1,41 @@
+.detail__datas {
+    width: 100%;
+    padding: 150px 0px;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .data {
+        width: 370px;
+        padding: 0px 0px 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        img {
+            width: 370px;
+            height: 219px;
+        }
+        .content {
+            height: 147px;
+            width: 100%;
+            padding-top: 30px;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            h4 {
+                font-size: 22px;
+                color: white;
+            }
+
+            p {
+                font-size: 16px;
+                color: white;
+            }
+
+        }
+    }
+}
